@@ -1,6 +1,6 @@
 # npm-lvckyworld-api
 The official LvckyWorld-API as NPM PACKAGE <br /> <br />
-[![Docs](https://img.shields.io/badge/-DOCUMENTATIONS-007396.svg?logo=Read%20the%20Docs&logoColor=white&longCache=true&style=for-the-badge)](https://https://docs.lvckyworld.net/lvckyworld-api/) [![Website](https://img.shields.io/badge/-WEBSITE-FF7139.svg?logo=Firefox%20Browser&logoColor=white&longCache=true&style=for-the-badge)](https://https://lvckyworld.net/)  [![Discord](https://img.shields.io/badge/-DISCORD-5865F2.svg?logo=Discord&logoColor=white&longCache=true&style=for-the-badge)](https://https://lvckyworld.net/discord/)
+[![Docs](https://img.shields.io/badge/-DOCUMENTATIONS-007396.svg?logo=Read%20the%20Docs&logoColor=white&longCache=true&style=for-the-badge)](https:///docs.lvckyworld.net/lvckyworld-api/) [![Website](https://img.shields.io/badge/-WEBSITE-FF7139.svg?logo=Firefox%20Browser&logoColor=white&longCache=true&style=for-the-badge)](https://lvckyworld.net/)  [![Discord](https://img.shields.io/badge/-DISCORD-5865F2.svg?logo=Discord&logoColor=white&longCache=true&style=for-the-badge)](https://lvckyworld.net/discord/)
 <br /><br /><br />
 #### Content:
 - [How to install](#Install-the-Package)
