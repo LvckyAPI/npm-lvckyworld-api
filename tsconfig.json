@@ -11,5 +11,11 @@
     ],
     "exclude": [
         "node_modules"
-    ]
+    ],
+    "typedocOptions": {
+        "entryPoints": [
+            "src/marina.ts"
+        ],
+        "out": "docs"
+    }
 }

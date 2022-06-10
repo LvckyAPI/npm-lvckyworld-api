@@ -88,7 +88,7 @@ export class MARINA {
 }
 
 
-interface lwSysAdmin {
+export interface lwSysAdmin {
     lvckyworld: [
         {
             name: string,
@@ -98,7 +98,7 @@ interface lwSysAdmin {
     ]
 }
 
-interface lwDiscordInfo {
+export interface lwDiscordInfo {
     id: string,
     username: string,
     avatar: string | null,
@@ -110,7 +110,7 @@ interface lwDiscordInfo {
     accent_color: string | null
 }
 
-interface lwTeamler {
+export interface lwTeamler {
     teamMembers: [
         {
             clientname: string,
@@ -123,7 +123,7 @@ interface lwTeamler {
     ]
 }
 
-interface lwGlobalBan {
+export interface lwGlobalBan {
     globalbans: [
         {
             clientid: string,
