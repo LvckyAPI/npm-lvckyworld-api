@@ -1,8 +1,35 @@
 {
-  "dependencies": {
-    "node-fetch": "^2.6.7"
-  },
-  "devDependencies": {
-    "@types/node-fetch": "^2.6.1"
-  }
+    "dependencies": {
+        "node-fetch": "^2.6.7",
+        "typescript": "^4.7.3"
+    },
+    "devDependencies": {
+        "@types/node-fetch": "^2.6.1"
+    },
+    "name": "lvckyworld-api",
+    "version": "1.0.5",
+    "description": "The official LvckyWorld-API",
+    "main": "lib/marina.js",
+    "types": "lib/marina.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LvckyAPI/npm-lvckyworld-api.git"
+    },
+    "keywords": [
+        "lvcky",
+        "lvckyworld",
+        "api"
+    ],
+    "author": "LvckyWorld | LvckyAPI - Iven Schlenther",
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://github.com/LvckyAPI/npm-lvckyworld-api/issues"
+    },
+    "homepage": "https://github.com/LvckyAPI/npm-lvckyworld-api#readme",
+    "directories": {
+        "lib": "lib"
+    }
 }
