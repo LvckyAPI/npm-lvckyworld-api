@@ -85,6 +85,27 @@ export class MARINA {
                 });
         })
     }
+
+    /**
+     * Check if discordId is an LvckyWorld-System-Admin
+     * 
+     * WARNING: YOU HAVE TO USE IN AN ASYNC FUNCTION WITH AWAIT
+     * 
+     * WARNING: OTHERWISE YOU HAVE TO WORK WITH .then(res => { })
+     * 
+     * @param discordId discorId of the person to be checked
+     * @returns If discordId is an LvckyWorld-Sys-Admin
+     */
+    public static isSystemAdmin(discordId: string): Promise<boolean> {
+        return new Promise((resolve, reject) => {
+            this.getSysAdmins().then(res => {
+                res.lvckyworld.forEach(obj => {
+                    if (obj.clid == discordId) return resolve(true);
+                })
+                return resolve(false);
+            }).catch(err => reject(err))
+        })
+    }
 }
 
 
