@@ -106,6 +106,13 @@ export class MARINA {
             }).catch(err => reject(err))
         })
     }
+
+
+    public static isBanned(discordId: string): Promise<boolean> {
+        return new Promise((resolve, reject) => {
+
+        })
+    }
 }
 
 
