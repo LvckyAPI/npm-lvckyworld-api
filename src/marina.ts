@@ -107,14 +107,24 @@ export class MARINA {
         })
     }
 
-
-    public static isBanned(discordId: string): Promise<boolean> {
+    /**
+     * Check if discordId have a globalban
+     * 
+     * WARNING: YOU HAVE TO USE IN AN ASYNC FUNCTION WITH AWAIT
+     * 
+     * WARNING: OTHERWISE YOU HAVE TO WORK WITH .then(res => { })
+     * 
+     * @param discordId discorId of the person to be checked
+     * @returns If discordId is in the globalBanList
+     */
+    public static isGlobalBanned(discordId: string): Promise<boolean> {
         return new Promise((resolve, reject) => {
-
+            this.getDcGlobalBanList().then(obj => {
+                resolve(obj.globalbans.some(elm => { return elm.clientid === discordId }))
+            }).catch(err => reject(err))
         })
     }
 }
-
 
 export interface lwSysAdmin {
     lvckyworld: [
