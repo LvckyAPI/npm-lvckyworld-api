@@ -6,9 +6,11 @@ The official LvckyWorld-API as NPM PACKAGE <br /> <br />
 - [How to install](#Install-the-Package)
 #### Functions:
 - [getDcGlobalBanList()](#getDcGlobalBanList)
-- [getDiscordUserInfo()](#getDiscordUserInfo)
+- [getDiscordUserInfo()](#getdiscorduserinfodiscordid-string)
 - [getLvckyWorldTeamler()](#getLvckyWorldTeamler)
 - [getSysAdmins()](#getSysAdmins)
+- [isSystemAdmin()](#issystemadmindiscordid-string)
+- [isGlobalBanned()](#isglobalbanneddiscordid-string)
 <br/><br/><br/><br/>
 
 ## Install the Package
@@ -126,4 +128,31 @@ interface lwSysAdmin {
         }
     ]
 }
+```
+<br/><br/><br/>
+## isSystemAdmin(discordId: string)
+### Example
+```ts
+import * as api from 'lvckyworld-api'
+
+api.MARINA.isSystemAdmin.then(response => {
+  console.log(response)
+}).catch(err => { console.log(err) });
+```
+```ts
+boolean
+```
+<br/><br/><br/>
+## isGlobalBanned(discordId: string)
+### Example
+```ts
+import * as api from 'lvckyworld-api'
+
+api.MARINA.isGlobalBanned.then(response => {
+  console.log(response)
+}).catch(err => { console.log(err) });
+```
+### Response
+```ts
+boolean
 ```
