@@ -6,11 +6,11 @@ The official LvckyWorld-API as NPM PACKAGE <br /> <br />
 - [How to install](#Install-the-Package)
 #### Functions:
 - [getDcGlobalBanList()](#getDcGlobalBanList)
-- [getDiscordUserInfo()](#getDiscordUserInfo)
+- [getDiscordUserInfo()](#getdiscorduserinfodiscordid-string)
 - [getLvckyWorldTeamler()](#getLvckyWorldTeamler)
 - [getSysAdmins()](#getSysAdmins)
-- [isSystemAdmin()](#isSystemAdmin)
-- [isGlobalBanned()](#isGlobalBanned)
+- [isSystemAdmin()](#issystemadmindiscordid-string)
+- [isGlobalBanned()](#isglobalbanneddiscordid-string)
 <br/><br/><br/><br/>
 
 ## Install the Package
